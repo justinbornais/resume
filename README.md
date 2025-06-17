@@ -1,2 +1,2 @@
-# resume
-Personal resumes built using React
+# Resume
+Personal resume built using React.
