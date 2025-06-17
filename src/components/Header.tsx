@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone, faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faLink, faPhone, faWindowMaximize, IconDefinition } from '@fortawesome/free-solid-svg-icons';
+import { faGit, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Header() {
     return <>
@@ -12,28 +12,20 @@ export default function Header() {
             <div className="details">
                 <h1>Justin Bornais</h1>
                 <div className="details-fields">
-                    <a href="mailto:justin.bornais@gmail.com">
-                        <FontAwesomeIcon className="icon" icon={faEnvelope} />
-                        justin.bornais@gmail.com
-                    </a>
-                    <a href="tel:2263461753">
-                        <FontAwesomeIcon className="icon" icon={faPhone} />
-                        (226) 346 - 1753
-                    </a>
-                    <a href="https://justinbornais.ca">
-                        <FontAwesomeIcon className="icon" icon={faWindowMaximize} />
-                        justinbornais.ca
-                    </a>
-                    <a href="https://github.com/justinbornais/">
-                        <FontAwesomeIcon className="icon" icon={faGithub} />
-                        justinbornais
-                    </a>
-                    <a href="https://www.linkedin.com/in/justin-bornais/">
-                        <FontAwesomeIcon className="icon" icon={faLinkedin} />
-                        justin-bornais
-                    </a>
+                    <DetailsField icon={faEnvelope} url="mailto:justin.bornais@gmail.com" text="justin.bornais@gmail.com" />
+                    <DetailsField icon={faPhone} url="tel:2263461753" text="(226) 346 - 1753" />
+                    <DetailsField icon={faWindowMaximize} url="https://justinbornais.ca" text="justinbornais.ca" />
+                    <DetailsField icon={faGithub} url="https://github.com/justinbornais/" text="justinbornais" />
+                    <DetailsField icon={faLinkedin} url="https://www.linkedin.com/in/justin-bornais/" text="justin-bornais" />
                 </div>
             </div>
         </header>
     </>
+}
+
+function DetailsField({icon, url, text}: {icon: IconDefinition, url: string, text: string}) {
+    return <a href={url}>
+        <FontAwesomeIcon className="icon" icon={icon} />
+        {text}
+    </a>
 }
