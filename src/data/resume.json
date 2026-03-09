@@ -3,7 +3,7 @@
     "name": "Justin Bornais",
     "title": "Software Developer",
     "contacts": [
-      { "iconKey": "email",    "url": "mailto:justin.bornais@gmail.com", "label": "justin.bornais@gmail.com"},
+      { "iconKey": "email",    "url": "mailto:jmbornaisdeveloper@gmail.com", "label": "jmbornaisdeveloper@gmail.com"},
       { "iconKey": "phone",    "url": "tel:2263461753", "label": "(226) 346-1753"},
       { "iconKey": "website",  "url": "https://justinbornais.ca", "label": "justinbornais.ca"},
       { "iconKey": "github",   "url": "https://github.com/justinbornais", "label": "justinbornais"},
@@ -88,7 +88,7 @@
   "volunteering": [
     {
       "organization": "UWindsor Computer Science Society",
-      "role": "Treasurer | Head of Societal Development",
+      "role": "Treasurer",
       "startDate": "May 2021",
       "endDate": "May 2023",
       "bullets": [
@@ -98,7 +98,7 @@
     },
     {
       "organization": "WinHacks Hackathon",
-      "role": "Head of Technology | Lead Judge",
+      "role": "Head of Technology",
       "startDate": "Jan 2021",
       "endDate": "March 2023",
       "bullets": [
