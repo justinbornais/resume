@@ -39,6 +39,15 @@
   ],
   "projects": [
     {
+      "name": "PDF Cropper",
+      "url": "https://github.com/justinbornais/pdf-cropper",
+      "techStack": ["React", "Python", "FastAPI", "PyMuPDF"],
+      "bullets": [
+        "Developed a **self-hosted PDF cropping tool** with a web interface, allowing users to split PDFs into multiple documents with **no loss in quality or OCR**.",
+        "Split in the middle of the page, or extend one page to cover the content of the next page."
+      ]
+    },
+    {
         "name": "Directory Tracer",
         "url": "https://github.com/justinbornais/go-directory-tracer",
         "techStack": ["Go", "CSS", "JS", "Fuse.js"],
@@ -47,15 +56,6 @@
           "Implemented fuzzy search with **Fuse.js** for easy navigation of large file trees.",
           "Compiled for support on Windows, Linux, and macOS with a single binary and no dependencies."
         ]
-    },
-    {
-      "name": "Personal Portfolio",
-      "url": "https://justinbornais.ca",
-      "techStack": ["React", "Astro", "TypeScript"],
-      "bullets": [
-        "Built a mobile-responsive portfolio website from scratch to showcase projects and experience.",
-        "Deployed via GitHub Pages with automated CI on every push to main."
-      ]
     }
   ],
   "skills": [
