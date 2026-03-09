@@ -1,0 +1,110 @@
+{
+  "header": {
+    "name": "Justin Bornais",
+    "title": "Software Developer",
+    "contacts": [
+      { "iconKey": "email",    "url": "mailto:justin.bornais@gmail.com", "label": "justin.bornais@gmail.com"},
+      { "iconKey": "phone",    "url": "tel:2263461753", "label": "(226) 346-1753"},
+      { "iconKey": "website",  "url": "https://justinbornais.ca", "label": "justinbornais.ca"},
+      { "iconKey": "github",   "url": "https://github.com/justinbornais", "label": "justinbornais"},
+      { "iconKey": "linkedin", "url": "https://linkedin.com/in/justin-bornais", "label": "justin-bornais"}
+    ]
+  },
+  "experience": [
+    {
+      "company": "Tessonics Inc.",
+      "role": "Software Developer",
+      "startDate": "May 2023",
+      "endDate": "Present",
+      "location": "Windsor, ON",
+      "bullets": [
+        "Developed software for **ultrasonic non-destructive testing (NDT)** systems using **C++**, **Delphi**, **Flutter** and **React**.",
+        "Led development and maintenance of the company website in **Hugo** and documentation ecosystem, building docs platforms with **Docusaurus** and **Wiki.js**, and rewriting most **product documentation**.",
+        "Built and maintained **internal tools and utilities** in **Go**, **C++**, and **Python** to support engineering and operational workflows.",
+        "Drove adoption of **AI-assisted development** tools such as **GitHub Copilot**, improving team development speed by **30-50%**."
+      ]
+    },
+    {
+      "company": "City of Windsor",
+      "role": "Software Developer",
+      "startDate": "May 2022",
+      "endDate": "August 2022",
+      "location": "Windsor, ON",
+      "bullets": [
+        "Used **Microsoft SSMS**, **Yellowfin** and **T-SQL** to create and modify data reports and views.",
+        "Performed **black box** testing of backend C# applications.",
+        "Created and maintained multiple websites using **Azure** and **Microsoft SharePoint**."
+      ]
+    }
+  ],
+  "projects": [
+    {
+        "name": "Directory Tracer",
+        "url": "https://github.com/justinbornais/go-directory-tracer",
+        "techStack": ["Go", "CSS", "JS", "Fuse.js"],
+        "bullets": [
+          "Built a command-line tool to generate interactive and searchable HTML visualizations of directory structures.",
+          "Implemented fuzzy search with **Fuse.js** for easy navigation of large file trees.",
+          "Compiled for support on Windows, Linux, and macOS with a single binary and no dependencies."
+        ]
+    },
+    {
+      "name": "Personal Portfolio",
+      "url": "https://justinbornais.ca",
+      "techStack": ["React", "Astro", "TypeScript"],
+      "bullets": [
+        "Built a mobile-responsive portfolio website from scratch to showcase projects and experience.",
+        "Deployed via GitHub Pages with automated CI on every push to main."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "items": ["TypeScript", "C++", "Go", "Python", "Flutter", "Delphi", "SQL"]
+    },
+    {
+      "label": "Frameworks & Libraries",
+      "items": ["React", "Node.js", "Docusaurus", "Hugo", "Astro", "Wiki.js"]
+    },
+    {
+      "label": "Miscellaneous",
+      "items": ["Git", "GitHub Copilot", "GitHub Actions", "REST APIs", "GCP", "CI/CD", "Linux", "Docker"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Windsor",
+      "degree": "Bachelor of Computer Science (Honours)",
+      "startDate": "Sep 2020",
+      "endDate": "Apr 2024",
+      "details": [
+        "**93.80%** Major Average (**92.30%** Cumulative)",
+        "Teaching Assistant for **7 courses**, including Data Structures, Theoretical Foundations, and Operating Systems",
+        "Member of the **Outstanding Scholars** program"
+      ]
+    }
+  ],
+  "volunteering": [
+    {
+      "organization": "UWindsor Computer Science Society",
+      "role": "Treasurer | Head of Societal Development",
+      "startDate": "May 2021",
+      "endDate": "May 2023",
+      "bullets": [
+        "Responsible for running the social media accounts and for managing the organization's finances",
+        "Collaborating with the Events team to organize and advertise events to facilitate student engagement on campus and online"
+      ]
+    },
+    {
+      "organization": "WinHacks Hackathon",
+      "role": "Head of Technology | Lead Judge",
+      "startDate": "Jan 2021",
+      "endDate": "March 2023",
+      "bullets": [
+        "Created the **Devpost** webpages for managing and hosting the hackathon",
+        "Organized and evaluated submissions with team of judges"
+      ]
+    }
+  ]
+}
